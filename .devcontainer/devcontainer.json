@@ -1,0 +1,9 @@
+{
+  "name": "floatchat-devcontainer",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/itsmechlark/features/postgresql:1": {}
+  },
+  "forwardPorts": [5432],
+  "postCreateCommand": "echo 'PostgreSQL setup complete ✅'"
+}
